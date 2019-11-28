@@ -1,1 +1,1 @@
-### Click [here](https://ellmck.github.io/app/index.html) to use the tuner
+### Click [here](https://ellmck.github.io) to use the tuner

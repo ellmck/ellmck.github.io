@@ -19,11 +19,21 @@ Application.prototype.start = function() {
   };
 
   swal.fire(
-      'Start Tuning!'
+      { icon: 'success',
+        title: 'Guitar Tuner',
+        showConfirmButton: false,
+        timer: 1000
+      }
   ).then(function() {
     self.tuner.init();
     self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount);
-    document.getElementsByClassName("notes")[0].style.display = "initial";
+    setTimeout(function() {
+      var cover = document.getElementById("cover");
+      cover.parentNode.removeChild(cover);
+
+    }, 200); // check again in a second
+
+
   });
 
   this.updateFrequencyBars();

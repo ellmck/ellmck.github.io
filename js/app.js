@@ -26,9 +26,7 @@ Application.prototype.start = function() {
     document.getElementsByClassName("notes")[0].style.display = "initial";
   });
 
-  if (!/Android/i.test(navigator.userAgent)) {
-    this.updateFrequencyBars();
-  }
+  this.updateFrequencyBars();
 
   self.tuner.init();
   self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount);

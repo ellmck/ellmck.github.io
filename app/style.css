@@ -37,6 +37,10 @@ body {
   color: #e74c3c;
 }
 
+.note.bang-on {
+  color: #42e735;
+}
+
 .notes-list {
   overflow: auto;
   overflow: -moz-scrollbars-none;

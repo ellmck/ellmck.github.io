@@ -28,8 +28,6 @@ Meter.prototype.update = function(deg) {
   const notes = document.getElementsByClassName("active");
   const activeNote = notes[0];
 
-  console.log(deg);
-
   if(deg < 1.5 && deg > -1.5){
     activeNote.classList.add('bang-on');
   }

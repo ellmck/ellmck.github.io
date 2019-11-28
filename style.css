@@ -137,7 +137,7 @@ body {
 
 .frequency-bars {
   position: absolute;
-  bottom: 0;
+  bottom: 20%;
 }
 
 @media (max-width: 768px) {

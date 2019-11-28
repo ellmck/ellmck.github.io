@@ -1,0 +1,20 @@
+{
+  "name": "Guitar Tuner",
+  "short_name": "Guitar Tuner",
+  "icons": [{
+    "src": "icon192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "icon512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "lang": "en-UK",
+  "display": "standalone",
+  "orientation": "landscape",
+  "start_url": "/index.html",
+  "background_color": "#154c61",
+  "theme_color": "#154c61"
+
+}

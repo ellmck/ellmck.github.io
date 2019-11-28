@@ -15,6 +15,7 @@ body {
 }
 
 .notes {
+  display:none; /*changes on start */
   margin: auto;
   width: 400px;
   position: absolute;
